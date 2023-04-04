@@ -122,5 +122,3 @@ async function generatePages() {
 }
 
 generatePages();
-
-// key , activity,accessibility,price.
