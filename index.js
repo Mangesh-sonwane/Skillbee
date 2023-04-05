@@ -47,14 +47,14 @@ const template = Handlebars.compile(`
           class="flex gap-48 bg-stone-800 text-white p-4 justify-center item-center"
         >
           <div class="flex gap-4">
-            <img src="./card-send.svg" alt="My Image" class="w-1/2" />
+            <img src="./Assets/card-send.svg" alt="My Image" class="w-1/2" />
             <div class="flex-auto mt-2">
               <h3 class="text-sm">ACCESSIBILITY</h3>
               <h1 class="text-lg font-bold text-white">{{accessibility}}</h1>
             </div>
           </div>
           <div class="flex gap-4">
-            <img src="./shield-tick.svg" alt="My Image" class="w-1/2" />
+            <img src="./Assets/shield-tick.svg" alt="My Image" class="w-1/2" />
             <div class="flex-auto mt-2">
               <h3 class="text-sm">TYPE</h3>
               <h1 class="text-lg font-bold text-white">SOCIAL</h1>
@@ -71,7 +71,7 @@ const template = Handlebars.compile(`
           </div>
         </div>
         <div class="mt-2">
-          <img src="./3image.svg" alt="My Image" class="w-fit" />
+          <img src="./Assets/3image.svg" alt="My Image" class="w-fit" />
         </div>
       </div>
     </div>
