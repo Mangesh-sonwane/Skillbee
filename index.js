@@ -99,7 +99,7 @@ async function generatePages() {
 
         const html = template(data);
 
-        const fileName = `page-${i + 1}.html`;
+        const fileName = `index-${i + 1}.html`;
 
         htmlWrites.push(
           new Promise((resolve, reject) => {
